@@ -1,0 +1,22 @@
+{
+  "name": "Basic template v3",
+  "url": "",
+  "authorName": "Michel Maillard",
+  "authorUrl": "https://michelmaillard.ch/",
+  "description": "Template with Eleventy, Liquid, Pico & Blueprint",
+  "favicon": "https://11ty.recipes/images/meta/favicon.svg",
+  "links": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "Blog",
+      "url": "/posts/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}
