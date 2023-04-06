@@ -1,0 +1,21 @@
+<main class="container">
+    <div bp-layout="grid">
+        <div bp-layout="col:4@md">
+            <aside>
+                <nav>
+                    <ul>
+                        {%- for post in collections.general -%}
+                        <li>
+                            <a{% if page.url==post.url %} aria-current="active" {% endif %} href="{{ post.url }}">{{ post.data.title }}</a>
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <div bp-layout="col:8@md">
+            <h1>{{ title }}</h1>
+            {{ content }}
+        </div>
+    </div>
+</main>
